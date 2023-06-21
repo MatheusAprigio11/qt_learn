@@ -8,7 +8,7 @@ class test:
         self.som = None
 
         self.tl_exemplo = uic.loadUi("./Exemplo.ui") #loadui para carregar a tela
-        self.tl_exemplo.okBtn.clicked.connect(lambda: self.test())    #lambda é quando voce quer utilizar uma função e precisa parar parametro
+        self.tl_exemplo.okBtn.clicked.connect(lambda: self.test())    #lambda é quando voce quer utilizar uma função e precisa parar parametro     -   okBtn é o nome do botao, clicked connect a função do qt
         self.tl_exemplo.show()   #arquivo show serve para abrir a tela
 
         self.tl_2 = uic.loadUi("./2.ui")
